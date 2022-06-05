@@ -1,0 +1,11 @@
+button{
+    color:white;
+    background-color: lightblue;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: darkblue;
+    transition: .5s;
+}
