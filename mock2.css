@@ -1,0 +1,40 @@
+.image-with-text{
+    /*position:relative;*/
+    display: block;
+}
+/*when there is an image dont forget to add the image element along with the class*/
+.image img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 400px;
+    /*position:absolute;
+    width: 400px;
+    top: 0;
+    left: 50%;
+    border-radius: 2px;*/
+}
+.title{
+    /*position:absolute;*/
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    top: 445px;
+    left: 50%;
+    border: solid darkgrey;
+    padding: 0;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+.description{
+    /*position:absolute;*/
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    top: 500px;
+    left: 50%;
+    border: solid darkgrey;
+    background: lightgrey;
+    border-radius: 5px;
+    padding: 0;
+}
