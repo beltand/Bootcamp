@@ -1,0 +1,64 @@
+ img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 8px;
+}
+#hamster-eating{
+    box-sizing: border-box;
+    border: solid lightpink;
+    border-radius: 2em;
+    margin: 50px;
+}
+#triangle-gif{
+    box-sizing: border-box;
+    border: solid lightpink;
+    border-radius: 2em;
+    margin: 50px;
+}
+#tina{
+    box-sizing: border-box;
+    border: solid lightpink;
+    border-radius: 2em;
+    margin: 50px;
+}
+.nom{
+    box-sizing: border-box;
+    margin: 50px;
+    border: solid black;
+    border-radius: 2em;
+}
+
+.img:hover .caption{
+    top:0;
+}
+
+//*.image{
+    position: relative;
+    width: 400px;
+}
+
+.image1{
+    display: block;
+    width: 100%;
+}
+.image-description{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    /*Why is the overlay not working when the absolute postion is set?
+    How do you adjust the position without flexbox?
+    Do you adjust the box before applying the overlay?
+    .image-overlay:hover
+    background: #ffffff;
+    font-family:quicksand;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}*/
+
